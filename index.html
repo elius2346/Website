@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify - Interactive Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learnify</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to <span class="highlight">Learnify</span></h2>
+        <p>Your one-stop platform for <strong>interactive learning</strong>!</p>
+        <button onclick="scrollToCourses()">Explore Courses</button>
+    </section>
+
+    <section id="courses">
+        <h2>Our <span class="highlight">Courses</span></h2>
+        <div class="course-list" id="course-list">
+            <!-- Courses will be dynamically added here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact <span class="highlight">Us</span></h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Learnify. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
